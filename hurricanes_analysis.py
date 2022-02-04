@@ -421,7 +421,6 @@ def find_greatest_damage():
             greatest_hurricane = hurricane_value["Name"]
     greatest_hurricane_damage[greatest_hurricane] = greatest_cost
     return greatest_hurricane_damage
-
 damages_scale = {0: 0, 1: 100000000, 2: 1000000000, 3: 10000000000, 4: 50000000000}
 
 # This function categorizes hurricanes by damages rating but only those with damages recorded:
